@@ -2,7 +2,7 @@ services:
   api:
     container_name: api-dev
     build:
-      context: ../../
+      context: .
       dockerfile: docker/developer/Dockerfile
     ports:
       - '65080:80'

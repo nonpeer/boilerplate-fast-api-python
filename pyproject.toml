@@ -1,15 +1,21 @@
 [tool.poetry]
-name = "python-boleto"
+name = "boilerplate_fast_api"
 version = "0.1.0"
 description = ""
-authors = ["DiegoBulhoes <diegobulhoesm@gmail.com>"]
+authors = ["DiegoBulhoes <diegobulhoesm@gmail.com>", "ViniciusEspindola <vinnyaoe@gmail.com>"]
 readme = "README.md"
-packages = [{include = "python_boleto"}]
+packages = [{include = "boilerplate_fastapi"}]
 
 [tool.poetry.dependencies]
-python = "^3.10.5"
+python = "^3.8.10"
 uvicorn = "^0.18.3"
 fastapi = "^0.83.0"
+python-decouple = "^3.8"
+pytest = "^7.2.1"
+pytest-cov = "^4.0.0"
+pyjwt = "^2.6.0"
+pytest-mock = "^3.10.0"
+requests = "^2.31.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^22.8.0"

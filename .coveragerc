@@ -1,0 +1,6 @@
+[run]
+omit =
+    boilerplate_fastapi/tests/*
+    boilerplate_fastapi/infrastructure/server.py
+    boilerplate_fastapi/main.py
+
